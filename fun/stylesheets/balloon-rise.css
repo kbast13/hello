@@ -1,0 +1,18 @@
+.fly_off {
+	background-image: url(countdown_images/balloon.png);
+	background-size: 600px 890px;
+	opacity: 0.90;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+    color: white;
+    transition: transform 3s;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    left: 650px;
+    outline: none;
+    overflow: hidden;
+}
+
+.fly_off:hover { 
+    transform: translate(0px, -800px);
+}
